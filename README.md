@@ -35,7 +35,7 @@ Na **Nota 2**, a interface foi integralmente migrada e evoluída para uma **Sing
 ---
 
 ## 📁 3. Estrutura de Arquivos do Projeto
-```text
+
 aprende-mais-react/
 ├── index.html                  # Arquivo HTML principal da SPA
 ├── package.json                # Dependências e scripts do projeto
@@ -54,54 +54,12 @@ aprende-mais-react/
         ├── ResourceCatalog.jsx # Consumo da Fetch API, listagem e modal
         ├── InteractiveQuiz.jsx # Módulo de simulado interativo reativo
         └── Footer.jsx          # Rodapé com informações da equipe
-```
+
+
 
 ---
 
-## 🚀 4. Como Executar Localmente
-
-### Pré-requisitos
-* Node.js (versão 18 ou superior) instalado.
-
-### Passo a Passo
-1. Clone ou descompacte os arquivos do projeto em seu computador:
-   ```bash
-   cd aprende-mais-react
-   ```
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-3. Execute o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-4. Abra o navegador no endereço indicado (geralmente `http://localhost:5173`).
-
----
-
-## 🌐 5. Publicação no GitHub e Deploy (Vercel / Netlify)
-
-### A. Subindo o Repositório no GitHub
-```bash
-git init
-git add .
-git commit -m "feat: migracao para React SPA, consumo de API e simulado interativo (Nota 2)"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/aprende-mais-react.git
-git push -u origin main
-```
-
-### B. Hospedagem Gratuita na Vercel (Recomendada)
-1. Acesse [vercel.com](https://vercel.com) e faça login com sua conta do GitHub.
-2. Clique em **Add New... > Project**.
-3. Selecione o repositório `aprende-mais-react`.
-4. Mantenha as configurações padrão (Framework Preset: **Vite**).
-5. Clique em **Deploy**. A aplicação estará online em menos de 1 minuto!
-
----
-
-## 🧪 6. Roteiro de Testes Realizados
+## 🧪 4. Roteiro de Testes Realizados
 1. **Teste de Navegação SPA:** Transição fluida entre abas (*Início*, *Biblioteca*, *Simulado* e *Sobre*) sem nenhum recarregamento de página.
 2. **Teste de Consumo da API (Fetch API):**
    - Pesquisa por termos como `"Matemática"`, `"História"` e `"Machado de Assis"`.
